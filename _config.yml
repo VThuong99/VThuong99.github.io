@@ -67,11 +67,12 @@ defaults:
       type: "posts"
     values:
       layout: single
-      author_profile: true
+      author_profile: false
+      show_date: true
       read_time: true
-      comments: false
-      share: true
-      related: true
+      comments: true
+      share: false
+      related: false
 
 # =====================================
 #  Footer and social media
@@ -101,3 +102,4 @@ exclude:
   - node_modules
   - vendor
   - minimal-mistakes
+
