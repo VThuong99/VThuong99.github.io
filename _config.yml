@@ -1,3 +1,103 @@
-theme: jekyll-theme-minimal
-title: Duong Van Thuong
-description: Embedded AI Engineer | Computer Vision & Edge AI
+# =====================================
+#  Site settings
+# =====================================
+title: "Thuong Duong Van"
+subtitle: "Embedded AI & Research Blog"
+name: "Dương Văn Thương"
+description: >-
+  AI researcher — exploring AI applications for Embedded AI systems for the edge.
+url: "https://vthuong99.github.io"
+baseurl: ""   # leave empty for GitHub Pages root
+repository: "VThuong99/VThuong99.github.io"
+
+# =====================================
+#  Author settings
+# =====================================
+author:
+  name             : "Thuong Duong Van"
+  avatar           : "/assets/images/github_avatar.png"
+  bio              : "AI Researcher — passionate about Embedded AI and Edge Systems."
+  location         : "Ho Chi Minh City, Vietnam"
+  email            : "vthuong11235@gmail.com"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/VThuong99"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/thuong-duong-44b699300/"
+
+# =====================================
+#  Theme and plugins
+# =====================================
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"  # options: air, contrast, dark, neon, etc.
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+paginate: 5
+paginate_path: "/page:num/"
+
+# =====================================
+#  Navigation bar
+# =====================================
+main:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Projects"
+    url: /projects/
+  - title: "Blog"
+    url: /posts/
+  - title: "Contact"
+    url: /contact/
+
+# =====================================
+#  Defaults for posts
+# =====================================
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+
+# =====================================
+#  Footer and social media
+# =====================================
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/VThuong99"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/thuong-duong-44b699300/"
+
+# =====================================
+#  Build settings
+# =====================================
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Exclude these files from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - minimal-mistakes
