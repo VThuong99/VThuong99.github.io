@@ -2,10 +2,10 @@
 #  Site settings
 # =====================================
 title: "Thuong Duong Van"
-subtitle: "Embedded AI & Research Blog"
+subtitle: "Edge AI & Embedded ML"
 name: "Dương Văn Thương"
 description: >-
-  AI researcher — exploring AI applications for Embedded AI systems for the edge.
+   AI researcher — loving bringing intelligence into small devices.
 url: "https://vthuong99.github.io"
 baseurl: ""   # leave empty for GitHub Pages root
 repository: "VThuong99/VThuong99.github.io"
@@ -19,6 +19,8 @@ author:
   bio              : "AI Researcher — passionate about Embedded AI and Edge Systems."
   location         : "Ho Chi Minh City, Vietnam"
   email            : "vthuong11235@gmail.com"
+  github: https://github.com/VThuong99
+  linkedin: https://www.linkedin.com/in/thuong-duong-44b699300/
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -66,7 +68,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: single
+      layout: simple
       author_profile: false
       show_date: true
       read_time: true
@@ -78,13 +80,9 @@ defaults:
 #  Footer and social media
 # =====================================
 footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/VThuong99"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/thuong-duong-44b699300/"
+  links: false
+  content: false
+  show_powered_by: false
 
 # =====================================
 #  Build settings
