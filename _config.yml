@@ -5,7 +5,7 @@ title: "Thuong Duong Van"
 subtitle: "Edge AI & Embedded ML"
 name: "Dương Văn Thương"
 description: >-
-   AI researcher — loving bringing intelligence into small devices.
+   AI researcher — passionate about bringing intelligence into small devices.
 url: "https://vthuong99.github.io"
 baseurl: ""   # leave empty for GitHub Pages root
 repository: "VThuong99/VThuong99.github.io"
@@ -16,7 +16,7 @@ repository: "VThuong99/VThuong99.github.io"
 author:
   name             : "Thuong Duong Van"
   avatar           : "/assets/images/github_avatar.png"
-  bio              : "AI researcher — loving bringing intelligence into small devices."
+  bio              : "AI researcher — passionate about bringing intelligence into small devices."
   location         : "Ho Chi Minh City, Vietnam"
   email            : "vthuong11235@gmail.com"
   github: https://github.com/VThuong99
